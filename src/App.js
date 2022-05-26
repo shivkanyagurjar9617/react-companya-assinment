@@ -4,10 +4,7 @@ import Table from './table/Table';
 import axios from 'axios';
 
 function App() {
-  // 1. state/hook variable
-  /* const unixTime = 165242593;
-  const date = new Date(unixTime*1000);
-  console. log(date.toLocaleDateString("en-US",{ year: 'numeric', month: "long", day: "numeric",weekday: "long",hour: '2-digit',minute: '2-digit', second: '2-digit' })); */
+  
   const[data1,setData1] = useState([])
   useEffect(()=>{
     myFun();
